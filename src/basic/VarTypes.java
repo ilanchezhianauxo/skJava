@@ -1,25 +1,32 @@
 package basic;
 
-public class VarTypes {
+import datatypes.BasicDatatype;
+
+public class VarTypes
+{
 
     int a=20;//instance variables
-    static int b=30;//static variables
+    static int c=30;//static variables
 
 
     public static void main(String[] args)
     {
+Arithematic a=new Arithematic();
 
+       int c;
+       c=50;
+        System.out.println( c);
+        System.out.println(VarTypes.c);
 
-        int b; //local variables
-        b=10;
-        System.out.println("value of b="+ VarTypes.b);
-        VarTypes obj=new VarTypes();
-        obj.sarika();
-
+        System.out.println(BasicDatatype.ab);
+        VarTypes v=new VarTypes();
+        System.out.println(v.a);
+        v.sarika();
     }
 
     void sarika()
     {
-        System.out.println("this is inside print method="+b);
+        System.out.println(a);
+        System.out.println(c);
     }
 }

@@ -1,6 +1,7 @@
 package datatypes;
 
 public class BasicDatatype {
+    public static int ab=45;
     public static void main(String[] args) {
         int a;
         int b;

@@ -1,8 +1,10 @@
 package basic;
 
-public class Arithematic {
+public class Arithematic
+{
+    int outvar=85;
     public static void main(String[] args) {
-        System.out.println(VarTypes.b);
+        //System.out.println(VarTypes.b);
         VarTypes v=new VarTypes();
         System.out.println(v.a);
         Arithematic obj=new Arithematic();
